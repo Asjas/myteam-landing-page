@@ -22,7 +22,7 @@ jobs:
         run: yarn install --prod --pure-lockfile
 
       - name: Build Nuxt.js website
-        run: yarn run build
+        run: yarn run generate
 
       - name: Publish to Cloudflare Workers
         uses: cloudflare/wrangler-action@1.1.0
