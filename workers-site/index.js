@@ -6,12 +6,14 @@ import { log } from "./sentry";
 
 // HTTP Security Headers
 const addHeaders = {
+  "Content-Security-Policy":
+    "default-src *; script-src 'self' 'unsafe-eval' 'unsafe-inline' static.cloudflareinsights.com cdn.jsdelivr.net cdn.ravenjs.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; img-src * data:; frame-ancestors https://www.frontendmentor.io; report-uri https://sentry.io/api/4994916/security/?sentry_key=ecff7c1016f4432ea0947bef14c241e2",
   "Expect-CT":
-    "max-age=604800, report-uri='https://sentry.io/api/4994916/security/?sentry_key=ecff7c1016f4432ea0947bef14c241e2'",
+    "max-age=604800, report-uri https://sentry.io/api/4994916/security/?sentry_key=ecff7c1016f4432ea0947bef14c241e2; report-to default",
   "Referrer-Policy": "same-origin",
   "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
   "X-Content-Type-Options": "nosniff",
-  "X-Frame-Options": "DENY",
+  "X-Frame-Options": "ALLOW-FROM https://www.frontendmentor.io",
   "X-XSS-Protection": "1; mode=block"
 };
 
