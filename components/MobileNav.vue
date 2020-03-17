@@ -1,7 +1,7 @@
 <template>
   <nav class="flex items-center justify-between pt-10">
     <svg
-      class="ml-6 h-8 text-white font-semibold"
+      class="ml-6"
       xmlns="http://www.w3.org/2000/svg"
       width="160"
       height="40"
