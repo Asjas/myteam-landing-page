@@ -1,14 +1,14 @@
 export default {
-  mode: "universal",
+  mode: "spa",
   head: {
-    title: "MyTeam",
+    title: "Myteam Landing Page",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
+        content: "The Myteam Landing Page project from frontendmentor.io"
       }
     ],
     link: [
@@ -16,15 +16,21 @@ export default {
       {
         rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Livvic:400,600,700&display=swap"
+          "https://fonts.googleapis.com/css?family=Livvic:400,500,700&display=swap"
       }
     ]
   },
-  loading: { color: "#fff" },
+  loading: { color: "#F67E7E" },
   css: [],
   plugins: [],
-  buildModules: ["@nuxtjs/eslint-module", "@nuxtjs/tailwindcss"],
-  modules: ["@nuxtjs/pwa"],
+  buildModules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/sentry", "@nuxtjs/pwa"],
+  sentry: {
+    dsn: "https://ecff7c1016f4432ea0947bef14c241e2@sentry.io/4994916",
+    publishRelease: true,
+    attachCommits: true,
+    repo: "https://github.com/Asjas/myteam-landing-page"
+  },
   pwa: {
     icons: {
       iconSrc: "favicon.png"

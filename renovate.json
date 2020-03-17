@@ -9,8 +9,8 @@
       "groupName": "nuxt"
     },
     {
-      "packagePatterns": ["eslint"],
-      "groupName": "eslint"
+      "packagePatterns": ["stylelint"],
+      "groupName": "stylelint"
     }
   ],
   "automerge": true,

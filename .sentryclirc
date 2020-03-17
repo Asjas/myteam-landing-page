@@ -1,0 +1,5 @@
+[defaults]
+project=myteam-landing-page
+org=asjas
+[auth]
+token=ded7bcb77db54ec98f8912798a61133db0d369b492934f32ab1d0c6dfa3ec65c
