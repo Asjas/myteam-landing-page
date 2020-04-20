@@ -13,7 +13,7 @@
           talent. We're about to change that.
         </p>
       </div>
-      <div class="flex justify-center mt-40">
+      <div class="flex justify-center pt-40">
         <img class="absolute bottom-0" src="~/assets/svg/home-mobile-header.svg" alt="" />
       </div>
     </header>
