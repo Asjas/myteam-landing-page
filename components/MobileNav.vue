@@ -17,7 +17,7 @@
     <div>
       <svg
         tabindex="0"
-        class="mr-6 text-white cursor-pointer outline-none focus:shadow-outline focus:shadow-white"
+        class="mr-6 text-white outline-none cursor-pointer focus:shadow-outline focus:shadow-white"
         xmlns="http://www.w3.org/2000/svg"
         width="20"
         height="17"

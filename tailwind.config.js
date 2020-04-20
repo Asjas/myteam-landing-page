@@ -17,14 +17,16 @@ module.exports = {
           darkgreen: "#002529"
         }
       },
-      spacing: {},
+      spacing: {
+        68: "16.77rem",
+      },
       fontSize: {
         tiny: ".833rem",
         base: "1rem",
         lg: "1.125rem",
         xl: "1.25rem",
         "2xl": "1.5rem",
-        "3xl": "2.223rem",
+        "3xl": "1.778rem",
         "4xl": "2.223rem",
         "5xl": "3rem",
         "6xl": "4rem",
@@ -37,8 +39,14 @@ module.exports = {
         wide: "0.0061rem"
       },
       lineHeight: {
+        xl: "1.38rem",
         "2xl": "1.55rem",
-        "3xl": "2.223rem"
+        "3xl": "1.778rem",
+        "4xl": "2.223rem"
+      },
+      inset: {
+        "1/2": "50%",
+        "3/4": "75%"
       }
     },
     fontFamily: {

@@ -14,11 +14,9 @@ export default {
     link: [
       { rel: "icon", type: "image/png", href: "favicon.png" },
       {
-        rel: "preload",
+        rel: "stylesheet",
         href:
-          "https://fonts.googleapis.com/css?family=Livvic:400,600,700&display=swap",
-        as: "style",
-        crossorigin: "anonymous"
+          "https://fonts.googleapis.com/css?family=Livvic:400,600,700&display=swap"
       }
     ]
   },
