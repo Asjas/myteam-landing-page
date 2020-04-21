@@ -1,7 +1,7 @@
 <template>
   <div class="overflow-x-hidden">
     <header class="relative bg-midnightgreen">
-      <MobileNav />
+      <Nav />
       <div class="mt-20">
         <h1 class="w-48 mx-auto text-4xl font-bold text-center text-white leading-4xl">
           Find the best
@@ -32,21 +32,24 @@
       </div>
       <Cta />
     </main>
+    <Footer />
   </div>
 </template>
 
 <script>
-import MobileNav from "~/components/MobileNav.vue";
+import Nav from "~/components/Nav.vue";
 import Features from "~/components/Features.vue";
 import SuccessStories from "~/components/SuccessStories.vue";
 import Cta from "~/components/Cta.vue";
+import Footer from "~/components/Footer.vue";
 
 export default {
   components: {
-    MobileNav,
+    Nav,
     Features,
     SuccessStories,
-    Cta
+    Cta,
+    Footer
   }
 };
 </script>
