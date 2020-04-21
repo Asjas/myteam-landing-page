@@ -3,7 +3,7 @@ module.exports = {
     extend: {
       screens: {
         lg: "1024px",
-        xl: "1280px"
+        xl: "1110px"
       },
       colors: {
         midnightgreen: "#014E56",
@@ -18,9 +18,11 @@ module.exports = {
         }
       },
       spacing: {
+        28: "7rem",
         68: "16.77rem",
       },
       fontSize: {
+        xtiny: "0.722rem",
         tiny: ".833rem",
         base: "1rem",
         lg: "1.125rem",
@@ -39,7 +41,8 @@ module.exports = {
         wide: "0.0061rem"
       },
       lineHeight: {
-        xl: "1.38rem",
+        "1": "1rem",
+        "xl": "1.38rem",
         "2xl": "1.55rem",
         "3xl": "1.778rem",
         "4xl": "2.223rem"
@@ -47,6 +50,10 @@ module.exports = {
       inset: {
         "1/2": "50%",
         "3/4": "75%"
+      },
+      opacity: {
+        '60': '.6',
+        '80': '.8'
       }
     },
     fontFamily: {
