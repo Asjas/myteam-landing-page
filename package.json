@@ -16,7 +16,7 @@
     "@nuxtjs/tailwindcss": "3.4.2",
     "nuxt": "2.15.2",
     "stylelint": "13.11.0",
-    "stylelint-config-recommended": "3.0.0"
+    "stylelint-config-recommended": "4.0.0"
   },
   "devDependencies": {
     "prettier": "2.2.1"
